@@ -17,15 +17,15 @@ import styled from 'styled-components';
 import { Margin } from '@kaakao-ui/styled-mixins';
 
 const Container = styled.section`
-  ${Margin({ mt: 1, mx: 2 })};
+  ${Margin({ t: 1, x: 2 })};
 `;
 ```
 
 ## 📓 Documentation
 
-| Theme Key   | Props                                             | CSS Map                                                                                                                                                                                                                                                               | Interface                                                                                                                                                                                                                                       |
-| ----------- | ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| theme.space | m<br />mb<br />ml<br />mr<br />mt<br />mx<br />my | margin<br /> margin-block-end / margin-bottom<br /> margin-inline-start / margin-left<br /> margin-inline-end / margin-right<br /> margin-block-start / margin-top<br /> margin-inline-start:end / margin-left:right<br /> margin-block-start:end / margin-top:bottom | <pre>interface IMargin {<br /> m?: string \| number;<br /> mb?: string \| number;<br /> ml?: string \| number;<br /> mr?: string \| number;<br /> mt?: string \| number;<br /> mx?: string \| number;<br /> my?: string \| number;<br />}</pre> |
+| Theme Key   | Props                                       | CSS Map                                                                                                                                                                                                                                                               | Interface                                                                                                                                                                                                                                 |
+| ----------- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| theme.space | m<br />b<br />l<br />r<br />t<br />x<br />y | margin<br /> margin-block-end / margin-bottom<br /> margin-inline-start / margin-left<br /> margin-inline-end / margin-right<br /> margin-block-start / margin-top<br /> margin-inline-start:end / margin-left:right<br /> margin-block-start:end / margin-top:bottom | <pre>interface IMargin {<br /> m?: string \| number;<br /> b?: string \| number;<br /> l?: string \| number;<br /> r?: string \| number;<br /> t?: string \| number;<br /> x?: string \| number;<br /> y?: string \| number;<br />}</pre> |
 
 ## 🚀 Examples
 
@@ -55,7 +55,7 @@ import styled from 'styled-components';
 import { Margin } from '@kaakao-ui/styled-mixins';
 
 const Container = styled.section`
-  ${Margin({ mt: 1, mx: 2 })};
+  ${Margin({ t: 1, x: 2 })};
 `;
 ```
 
@@ -76,14 +76,13 @@ import styled from 'styled-components';
 import { Margin } from '@kaakao-ui/styled-mixins';
 
 const Container = styled.section`
-  ${Margin({ mt: '1rem', mx: 'auto' })};
+  ${Margin({ m: '1rem', r: '5px' })};
 `;
 ```
 
 **Styles Result**
 
 ```css
-margin-block-start: 1rem;
-margin-inline-start: auto;
-margin-inline-end: auto;
+margin: 1rem;
+margin-inline-end: 5px;
 ```
