@@ -2,6 +2,6 @@ import 'styled-components';
 
 declare module 'styled-components' {
   export interface DefaultTheme {
-    space?: Record<number, string>;
+    space?: [number | string];
   }
 }
