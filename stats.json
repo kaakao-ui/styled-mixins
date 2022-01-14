@@ -10,11 +10,24 @@
             "name": "src",
             "children": [
               {
-                "name": "mixins/Margin/Margin.ts",
-                "uid": "9b1e-1"
+                "name": "mixins",
+                "children": [
+                  {
+                    "name": "Margin/Margin.ts",
+                    "uid": "2202-1"
+                  },
+                  {
+                    "name": "Padding/Padding.ts",
+                    "uid": "2202-3"
+                  },
+                  {
+                    "name": "Space/Space.ts",
+                    "uid": "2202-5"
+                  }
+                ]
               },
               {
-                "uid": "9b1e-3",
+                "uid": "2202-7",
                 "name": "index.ts"
               }
             ]
@@ -25,70 +38,166 @@
     "isRoot": true
   },
   "nodeParts": {
-    "9b1e-1": {
+    "2202-1": {
       "renderedLength": 1116,
       "gzipLength": 383,
       "brotliLength": 326,
-      "mainUid": "9b1e-0"
+      "mainUid": "2202-0"
     },
-    "9b1e-3": {
+    "2202-3": {
+      "renderedLength": 1127,
+      "gzipLength": 384,
+      "brotliLength": 319,
+      "mainUid": "2202-2"
+    },
+    "2202-5": {
+      "renderedLength": 129,
+      "gzipLength": 123,
+      "brotliLength": 94,
+      "mainUid": "2202-4"
+    },
+    "2202-7": {
       "renderedLength": 0,
       "gzipLength": 0,
       "brotliLength": 0,
-      "mainUid": "9b1e-2"
+      "mainUid": "2202-6"
     }
   },
   "nodeMetas": {
-    "9b1e-0": {
+    "2202-0": {
       "id": "/src/mixins/Margin/Margin.ts",
       "moduleParts": {
-        "index.cjs.js": "9b1e-1"
+        "index.cjs.js": "2202-1"
       },
       "imported": [
         {
-          "uid": "9b1e-5"
+          "uid": "2202-11"
         }
       ],
       "importedBy": [
         {
-          "uid": "9b1e-4"
+          "uid": "2202-8"
         }
       ]
     },
-    "9b1e-2": {
-      "id": "/src/index.ts",
+    "2202-2": {
+      "id": "/src/mixins/Padding/Padding.ts",
       "moduleParts": {
-        "index.cjs.js": "9b1e-3"
+        "index.cjs.js": "2202-3"
       },
       "imported": [
         {
-          "uid": "9b1e-4"
+          "uid": "2202-11"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2202-9"
+        }
+      ]
+    },
+    "2202-4": {
+      "id": "/src/mixins/Space/Space.ts",
+      "moduleParts": {
+        "index.cjs.js": "2202-5"
+      },
+      "imported": [
+        {
+          "uid": "2202-11"
+        },
+        {
+          "uid": "2202-8"
+        },
+        {
+          "uid": "2202-9"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2202-10"
+        }
+      ]
+    },
+    "2202-6": {
+      "id": "/src/index.ts",
+      "moduleParts": {
+        "index.cjs.js": "2202-7"
+      },
+      "imported": [
+        {
+          "uid": "2202-8"
+        },
+        {
+          "uid": "2202-9"
+        },
+        {
+          "uid": "2202-10"
         }
       ],
       "importedBy": [],
       "isEntry": true
     },
-    "9b1e-4": {
+    "2202-8": {
       "id": "/src/mixins/Margin/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "9b1e-0"
+          "uid": "2202-0"
         }
       ],
       "importedBy": [
         {
-          "uid": "9b1e-2"
+          "uid": "2202-6"
+        },
+        {
+          "uid": "2202-4"
         }
       ]
     },
-    "9b1e-5": {
+    "2202-9": {
+      "id": "/src/mixins/Padding/index.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "2202-2"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2202-6"
+        },
+        {
+          "uid": "2202-4"
+        }
+      ]
+    },
+    "2202-10": {
+      "id": "/src/mixins/Space/index.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "2202-4"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2202-6"
+        }
+      ]
+    },
+    "2202-11": {
       "id": "styled-components",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "9b1e-0"
+          "uid": "2202-0"
+        },
+        {
+          "uid": "2202-2"
+        },
+        {
+          "uid": "2202-4"
         }
       ],
       "isExternal": true
@@ -102,5 +211,7 @@
     "brotli": true,
     "sourcemap": false
   }
-}  }
+}li": true,
+    "sourcemap": false
+  }
 }
