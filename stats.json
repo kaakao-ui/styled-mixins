@@ -4,17 +4,17 @@
     "name": "root",
     "children": [
       {
-        "name": "index.esm.js",
+        "name": "index.cjs.js",
         "children": [
           {
             "name": "src",
             "children": [
               {
                 "name": "mixins/Margin/Margin.ts",
-                "uid": "70b6-1"
+                "uid": "9b1e-1"
               },
               {
-                "uid": "70b6-3",
+                "uid": "9b1e-3",
                 "name": "index.ts"
               }
             ]
@@ -25,70 +25,70 @@
     "isRoot": true
   },
   "nodeParts": {
-    "70b6-1": {
-      "renderedLength": 1090,
-      "gzipLength": 369,
-      "brotliLength": 302,
-      "mainUid": "70b6-0"
+    "9b1e-1": {
+      "renderedLength": 1116,
+      "gzipLength": 383,
+      "brotliLength": 326,
+      "mainUid": "9b1e-0"
     },
-    "70b6-3": {
+    "9b1e-3": {
       "renderedLength": 0,
       "gzipLength": 0,
       "brotliLength": 0,
-      "mainUid": "70b6-2"
+      "mainUid": "9b1e-2"
     }
   },
   "nodeMetas": {
-    "70b6-0": {
+    "9b1e-0": {
       "id": "/src/mixins/Margin/Margin.ts",
       "moduleParts": {
-        "index.esm.js": "70b6-1"
+        "index.cjs.js": "9b1e-1"
       },
       "imported": [
         {
-          "uid": "70b6-5"
+          "uid": "9b1e-5"
         }
       ],
       "importedBy": [
         {
-          "uid": "70b6-4"
+          "uid": "9b1e-4"
         }
       ]
     },
-    "70b6-2": {
+    "9b1e-2": {
       "id": "/src/index.ts",
       "moduleParts": {
-        "index.esm.js": "70b6-3"
+        "index.cjs.js": "9b1e-3"
       },
       "imported": [
         {
-          "uid": "70b6-4"
+          "uid": "9b1e-4"
         }
       ],
       "importedBy": [],
       "isEntry": true
     },
-    "70b6-4": {
+    "9b1e-4": {
       "id": "/src/mixins/Margin/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "70b6-0"
+          "uid": "9b1e-0"
         }
       ],
       "importedBy": [
         {
-          "uid": "70b6-2"
+          "uid": "9b1e-2"
         }
       ]
     },
-    "70b6-5": {
+    "9b1e-5": {
       "id": "styled-components",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "70b6-0"
+          "uid": "9b1e-0"
         }
       ],
       "isExternal": true
