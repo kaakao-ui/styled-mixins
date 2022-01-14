@@ -1,5 +1,5 @@
-export interface IMargin {
-  m?: string | number;
+export interface IPadding {
+  p?: string | number;
   b?: string | number;
   l?: string | number;
   r?: string | number;
