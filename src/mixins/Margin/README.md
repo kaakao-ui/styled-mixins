@@ -21,8 +21,6 @@ const Container = styled.section`
 `;
 ```
 
-...
-
 ## 📓 Documentation
 
 | Theme Key   | Props                                             | CSS Map                                                                                                                                                                                                                                                               | Interface                                                                                                                                                                                                                                       |
