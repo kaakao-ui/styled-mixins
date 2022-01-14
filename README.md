@@ -1,6 +1,6 @@
 <img alt="Kaakao-UI" src="kaakao.jpg" width="100%">
 
-# Kaakao-UI Styled Mixins
+# Kaakao-UI Styled Mixins [![npm version](https://flat.badgen.net/npm/v/@kaakao-ui/styled-mixins)](https://www.npmjs.com/package/@kaakao-ui/styled-mixins)
 
 A framework-agnostic collection of Styled Components mixins for creating logical CSS styles with appropriate fallbacks.
 

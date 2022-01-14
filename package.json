@@ -57,5 +57,8 @@
     "hooks": {
       "pre-push": "yarn lint"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
