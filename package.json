@@ -1,7 +1,7 @@
 {
   "name": "@kaakao-ui/styled-mixins",
   "version": "0.0.1",
-  "description": "A collection of Styled Components mixin function to create logical CSS.",
+  "description": "A framework-agnostic collection of Styled Components mixins for creating logical CSS styles with appropriate fallbacks.",
   "license": "MIT",
   "author": "Daniel Yuschick <daniel.yuschick@gmail.com>",
   "repository": "https://github.com/kaakao-ui/styled-mixins",
