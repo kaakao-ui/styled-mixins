@@ -9,5 +9,5 @@ export interface IPosition {
   position?: Positions;
   right?: keyof DefaultTheme['space'] | string | number;
   top?: keyof DefaultTheme['space'] | string | number;
-  z?: number;
+  z?: number; // TODO: Tie to theme
 }
