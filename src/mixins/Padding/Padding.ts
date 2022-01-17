@@ -1,4 +1,4 @@
-import { css, useTheme, FlattenSimpleInterpolation } from 'styled-components';
+import { css, DefaultTheme, useTheme, FlattenSimpleInterpolation } from 'styled-components';
 import { IPadding } from './Padding.types';
 
 function Padding(props: IPadding): FlattenSimpleInterpolation | undefined {
@@ -13,11 +13,31 @@ function Padding(props: IPadding): FlattenSimpleInterpolation | undefined {
 
   if (!Object.keys(p)) return undefined;
 
-  p.b = p.b && p.b !== p.p ? (theme?.space ? theme.space[Number(p.b)] : p.b) : '';
-  p.l = p.l && p.l !== p.p ? (theme?.space ? theme.space[Number(p.l)] : p.l) : '';
-  p.r = p.r && p.r !== p.p ? (theme?.space ? theme.space[Number(p.r)] : p.r) : '';
-  p.t = p.t && p.t !== p.p ? (theme?.space ? theme.space[Number(p.t)] : p.t) : '';
-  p.p = p.p ? (theme.space ? theme.space[Number(p.p)] : p.p) : '';
+  p.b =
+    p.b && p.b !== p.p
+      ? theme?.space
+        ? theme.space[p.b as keyof DefaultTheme['space']]
+        : p.b
+      : '';
+  p.l =
+    p.l && p.l !== p.p
+      ? theme?.space
+        ? theme.space[p.b as keyof DefaultTheme['space']]
+        : p.l
+      : '';
+  p.r =
+    p.r && p.r !== p.p
+      ? theme?.space
+        ? theme.space[p.b as keyof DefaultTheme['space']]
+        : p.r
+      : '';
+  p.t =
+    p.t && p.t !== p.p
+      ? theme?.space
+        ? theme.space[p.b as keyof DefaultTheme['space']]
+        : p.t
+      : '';
+  p.p = p.p ? (theme.space ? theme.space[p.p as keyof DefaultTheme['space']] : p.p) : '';
 
   return css`
     padding: ${p.p};

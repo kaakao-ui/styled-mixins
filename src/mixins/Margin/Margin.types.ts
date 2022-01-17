@@ -1,9 +1,11 @@
+import { DefaultTheme } from 'styled-components';
+
 export interface IMargin {
-  m?: string | number;
-  mb?: string | number;
-  ml?: string | number;
-  mr?: string | number;
-  mt?: string | number;
-  mx?: string | number;
-  my?: string | number;
+  m?: keyof DefaultTheme['space'] | string | number;
+  mb?: keyof DefaultTheme['space'] | string | number;
+  ml?: keyof DefaultTheme['space'] | string | number;
+  mr?: keyof DefaultTheme['space'] | string | number;
+  mt?: keyof DefaultTheme['space'] | string | number;
+  mx?: keyof DefaultTheme['space'] | string | number;
+  my?: keyof DefaultTheme['space'] | string | number;
 }
