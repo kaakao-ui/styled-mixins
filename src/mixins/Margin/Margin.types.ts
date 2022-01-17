@@ -1,9 +1,9 @@
 export interface IMargin {
   m?: string | number;
-  b?: string | number;
-  l?: string | number;
-  r?: string | number;
-  t?: string | number;
-  x?: string | number;
-  y?: string | number;
+  mb?: string | number;
+  ml?: string | number;
+  mr?: string | number;
+  mt?: string | number;
+  mx?: string | number;
+  my?: string | number;
 }

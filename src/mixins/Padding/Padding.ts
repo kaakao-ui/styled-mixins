@@ -4,11 +4,11 @@ import { IPadding } from './Padding.types';
 function Padding(props: IPadding): FlattenSimpleInterpolation | undefined {
   const { space } = useTheme();
   const p = {
-    b: props.b || props.y || props.p,
-    l: props.l || props.x || props.p,
+    b: props.pb || props.py || props.p,
+    l: props.pl || props.px || props.p,
     m: props.p,
-    r: props.r || props.x || props.p,
-    t: props.t || props.y || props.p
+    r: props.pr || props.px || props.p,
+    t: props.pt || props.py || props.p
   };
 
   if (!Object.keys(p)) return undefined;

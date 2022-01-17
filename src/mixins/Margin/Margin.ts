@@ -4,11 +4,11 @@ import { IMargin } from './Margin.types';
 function Margin(props: IMargin): FlattenSimpleInterpolation | undefined {
   const { space } = useTheme();
   const m = {
-    b: props.b || props.y || props.m,
-    l: props.l || props.x || props.m,
+    b: props.mb || props.my || props.m,
+    l: props.ml || props.mx || props.m,
     m: props.m,
-    r: props.r || props.x || props.m,
-    t: props.t || props.y || props.m
+    r: props.mr || props.mx || props.m,
+    t: props.mt || props.my || props.m
   };
 
   if (!Object.keys(m)) return undefined;

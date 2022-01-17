@@ -5,8 +5,8 @@ import { ISpace } from './Space.types';
 
 function Space(props: ISpace): FlattenSimpleInterpolation | undefined {
   return css`
-    ${props.m && Margin(props.m)};
-    ${props.p && Padding(props.p)};
+    ${Margin(props)};
+    ${Padding(props)};
   `;
 }
 
