@@ -14,20 +14,20 @@
                 "children": [
                   {
                     "name": "Margin/Margin.ts",
-                    "uid": "b9b3-1"
+                    "uid": "fe0b-1"
                   },
                   {
                     "name": "Padding/Padding.ts",
-                    "uid": "b9b3-3"
+                    "uid": "fe0b-3"
                   },
                   {
                     "name": "Space/Space.ts",
-                    "uid": "b9b3-5"
+                    "uid": "fe0b-5"
                   }
                 ]
               },
               {
-                "uid": "b9b3-7",
+                "uid": "fe0b-7",
                 "name": "index.ts"
               }
             ]
@@ -38,166 +38,166 @@
     "isRoot": true
   },
   "nodeParts": {
-    "b9b3-1": {
-      "renderedLength": 1636,
-      "gzipLength": 459,
-      "brotliLength": 368,
-      "mainUid": "b9b3-0"
+    "fe0b-1": {
+      "renderedLength": 1136,
+      "gzipLength": 382,
+      "brotliLength": 306,
+      "mainUid": "fe0b-0"
     },
-    "b9b3-3": {
-      "renderedLength": 1647,
-      "gzipLength": 465,
-      "brotliLength": 367,
-      "mainUid": "b9b3-2"
+    "fe0b-3": {
+      "renderedLength": 1147,
+      "gzipLength": 383,
+      "brotliLength": 300,
+      "mainUid": "fe0b-2"
     },
-    "b9b3-5": {
+    "fe0b-5": {
       "renderedLength": 103,
       "gzipLength": 108,
       "brotliLength": 84,
-      "mainUid": "b9b3-4"
+      "mainUid": "fe0b-4"
     },
-    "b9b3-7": {
+    "fe0b-7": {
       "renderedLength": 0,
       "gzipLength": 0,
       "brotliLength": 0,
-      "mainUid": "b9b3-6"
+      "mainUid": "fe0b-6"
     }
   },
   "nodeMetas": {
-    "b9b3-0": {
+    "fe0b-0": {
       "id": "/src/mixins/Margin/Margin.ts",
       "moduleParts": {
-        "index.cjs.js": "b9b3-1"
+        "index.cjs.js": "fe0b-1"
       },
       "imported": [
         {
-          "uid": "b9b3-11"
+          "uid": "fe0b-11"
         }
       ],
       "importedBy": [
         {
-          "uid": "b9b3-8"
+          "uid": "fe0b-8"
         }
       ]
     },
-    "b9b3-2": {
+    "fe0b-2": {
       "id": "/src/mixins/Padding/Padding.ts",
       "moduleParts": {
-        "index.cjs.js": "b9b3-3"
+        "index.cjs.js": "fe0b-3"
       },
       "imported": [
         {
-          "uid": "b9b3-11"
+          "uid": "fe0b-11"
         }
       ],
       "importedBy": [
         {
-          "uid": "b9b3-9"
+          "uid": "fe0b-9"
         }
       ]
     },
-    "b9b3-4": {
+    "fe0b-4": {
       "id": "/src/mixins/Space/Space.ts",
       "moduleParts": {
-        "index.cjs.js": "b9b3-5"
+        "index.cjs.js": "fe0b-5"
       },
       "imported": [
         {
-          "uid": "b9b3-11"
+          "uid": "fe0b-11"
         },
         {
-          "uid": "b9b3-8"
+          "uid": "fe0b-8"
         },
         {
-          "uid": "b9b3-9"
+          "uid": "fe0b-9"
         }
       ],
       "importedBy": [
         {
-          "uid": "b9b3-10"
+          "uid": "fe0b-10"
         }
       ]
     },
-    "b9b3-6": {
+    "fe0b-6": {
       "id": "/src/index.ts",
       "moduleParts": {
-        "index.cjs.js": "b9b3-7"
+        "index.cjs.js": "fe0b-7"
       },
       "imported": [
         {
-          "uid": "b9b3-8"
+          "uid": "fe0b-8"
         },
         {
-          "uid": "b9b3-9"
+          "uid": "fe0b-9"
         },
         {
-          "uid": "b9b3-10"
+          "uid": "fe0b-10"
         }
       ],
       "importedBy": [],
       "isEntry": true
     },
-    "b9b3-8": {
+    "fe0b-8": {
       "id": "/src/mixins/Margin/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "b9b3-0"
+          "uid": "fe0b-0"
         }
       ],
       "importedBy": [
         {
-          "uid": "b9b3-6"
+          "uid": "fe0b-6"
         },
         {
-          "uid": "b9b3-4"
+          "uid": "fe0b-4"
         }
       ]
     },
-    "b9b3-9": {
+    "fe0b-9": {
       "id": "/src/mixins/Padding/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "b9b3-2"
+          "uid": "fe0b-2"
         }
       ],
       "importedBy": [
         {
-          "uid": "b9b3-6"
+          "uid": "fe0b-6"
         },
         {
-          "uid": "b9b3-4"
+          "uid": "fe0b-4"
         }
       ]
     },
-    "b9b3-10": {
+    "fe0b-10": {
       "id": "/src/mixins/Space/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "b9b3-4"
+          "uid": "fe0b-4"
         }
       ],
       "importedBy": [
         {
-          "uid": "b9b3-6"
+          "uid": "fe0b-6"
         }
       ]
     },
-    "b9b3-11": {
+    "fe0b-11": {
       "id": "styled-components",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "b9b3-0"
+          "uid": "fe0b-0"
         },
         {
-          "uid": "b9b3-2"
+          "uid": "fe0b-2"
         },
         {
-          "uid": "b9b3-4"
+          "uid": "fe0b-4"
         }
       ],
       "isExternal": true

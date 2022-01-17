@@ -6,21 +6,21 @@ function Padding(props: IPadding): FlattenSimpleInterpolation | undefined {
   const p = {
     b: props.pb || props.py || props.p,
     l: props.pl || props.px || props.p,
-    m: props.p,
+    p: props.p,
     r: props.pr || props.px || props.p,
     t: props.pt || props.py || props.p
   };
 
   if (!Object.keys(p)) return undefined;
 
-  p.b = p.b && p.b !== p.m ? theme?.space?.[Number(p.b)] || p.b : '';
-  p.l = p.l && p.l !== p.m ? theme?.space?.[Number(p.l)] || p.l : '';
-  p.m = p.m ? theme?.space?.[Number(p.m)] || p.m : '';
-  p.r = p.r && p.r !== p.m ? theme?.space?.[Number(p.r)] || p.r : '';
-  p.t = p.t && p.t !== p.m ? theme?.space?.[Number(p.t)] || p.t : '';
+  p.b = p.b && p.b !== p.p ? (theme?.space ? theme.space[Number(p.b)] : p.b) : '';
+  p.l = p.l && p.l !== p.p ? (theme?.space ? theme.space[Number(p.l)] : p.l) : '';
+  p.r = p.r && p.r !== p.p ? (theme?.space ? theme.space[Number(p.r)] : p.r) : '';
+  p.t = p.t && p.t !== p.p ? (theme?.space ? theme.space[Number(p.t)] : p.t) : '';
+  p.p = p.p ? (theme.space ? theme.space[Number(p.p)] : p.p) : '';
 
   return css`
-    padding: ${p.m};
+    padding: ${p.p};
     padding-block-end: ${p.b};
     padding-block-start: ${p.t};
     padding-inline-end: ${p.r};

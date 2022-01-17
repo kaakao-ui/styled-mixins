@@ -13,11 +13,11 @@ function Margin(props: IMargin): FlattenSimpleInterpolation | undefined {
 
   if (!Object.keys(m)) return undefined;
 
-  m.b = m.b && m.b !== m.m ? theme?.space?.[Number(m.b)] || m.b : '';
-  m.l = m.l && m.l !== m.m ? theme?.space?.[Number(m.l)] || m.l : '';
-  m.m = m.m ? theme?.space?.[Number(m.m)] || m.m : '';
-  m.r = m.r && m.r !== m.m ? theme?.space?.[Number(m.r)] || m.r : '';
-  m.t = m.t && m.t !== m.m ? theme?.space?.[Number(m.t)] || m.t : '';
+  m.b = m.b && m.b !== m.m ? (theme?.space ? theme.space[Number(m.b)] : m.b) : '';
+  m.l = m.l && m.l !== m.m ? (theme?.space ? theme.space[Number(m.l)] : m.l) : '';
+  m.r = m.r && m.r !== m.m ? (theme?.space ? theme.space[Number(m.r)] : m.r) : '';
+  m.t = m.t && m.t !== m.m ? (theme?.space ? theme.space[Number(m.t)] : m.t) : '';
+  m.m = m.m ? (theme.space ? theme.space[Number(m.m)] : m.m) : '';
 
   return css`
     margin: ${m.m};
