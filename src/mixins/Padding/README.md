@@ -17,15 +17,15 @@ import styled from 'styled-components';
 import { Padding } from '@kaakao-ui/styled-mixins';
 
 const Container = styled.section`
-  ${Padding({ t: 1, x: 2 })};
+  ${Padding({ pt: 1, px: 2 })};
 `;
 ```
 
 ## 📓 Documentation
 
-| Theme Key   | Props                                       | CSS Map                                                                                                                                                                                                                                                                            | Interface                                                                                                                                                                                                                                  |
-| ----------- | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| theme.space | p<br />b<br />l<br />r<br />t<br />x<br />y | padding<br /> padding-block-end / padding-bottom<br /> padding-inline-start / padding-left<br /> padding-inline-end / padding-right<br /> padding-block-start / padding-top<br /> padding-inline-start:end / padding-left:right<br /> padding-block-start:end / padding-top:bottom | <pre>interface IPadding {<br /> p?: string \| number;<br /> b?: string \| number;<br /> l?: string \| number;<br /> r?: string \| number;<br /> t?: string \| number;<br /> x?: string \| number;<br /> y?: string \| number;<br />}</pre> |
+| Theme Key   | Props                                             | CSS Map                                                                                                                                                                                                                                                                            | Interface                                                                                                                                                                                                                                        |
+| ----------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| theme.space | p<br />pb<br />pl<br />pr<br />pt<br />px<br />py | padding<br /> padding-block-end / padding-bottom<br /> padding-inline-start / padding-left<br /> padding-inline-end / padding-right<br /> padding-block-start / padding-top<br /> padding-inline-start:end / padding-left:right<br /> padding-block-start:end / padding-top:bottom | <pre>interface IPadding {<br /> p?: string \| number;<br /> pb?: string \| number;<br /> pl?: string \| number;<br /> pr?: string \| number;<br /> pt?: string \| number;<br /> px?: string \| number;<br /> py?: string \| number;<br />}</pre> |
 
 ## 🚀 Examples
 
@@ -55,7 +55,7 @@ import styled from 'styled-components';
 import { Padding } from '@kaakao-ui/styled-mixins';
 
 const Container = styled.section`
-  ${Padding({ t: 1, x: 2 })};
+  ${Padding({ pt: 1, px: 2 })};
 `;
 ```
 
@@ -76,7 +76,7 @@ import styled from 'styled-components';
 import { Padding } from '@kaakao-ui/styled-mixins';
 
 const Container = styled.section`
-  ${Padding({ p: '1rem', r: '5px' })};
+  ${Padding({ p: '1rem', pr: '5px' })};
 `;
 ```
 

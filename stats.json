@@ -4,7 +4,7 @@
     "name": "root",
     "children": [
       {
-        "name": "index.cjs.js",
+        "name": "index.esm.js",
         "children": [
           {
             "name": "src",
@@ -14,20 +14,24 @@
                 "children": [
                   {
                     "name": "Margin/Margin.ts",
-                    "uid": "fe0b-1"
+                    "uid": "e71d-16"
                   },
                   {
                     "name": "Padding/Padding.ts",
-                    "uid": "fe0b-3"
+                    "uid": "e71d-18"
+                  },
+                  {
+                    "name": "Position/Position.ts",
+                    "uid": "e71d-20"
                   },
                   {
                     "name": "Space/Space.ts",
-                    "uid": "fe0b-5"
+                    "uid": "e71d-22"
                   }
                 ]
               },
               {
-                "uid": "fe0b-7",
+                "uid": "e71d-24",
                 "name": "index.ts"
               }
             ]
@@ -38,166 +42,208 @@
     "isRoot": true
   },
   "nodeParts": {
-    "fe0b-1": {
-      "renderedLength": 1136,
-      "gzipLength": 382,
-      "brotliLength": 306,
-      "mainUid": "fe0b-0"
+    "e71d-16": {
+      "renderedLength": 1102,
+      "gzipLength": 366,
+      "brotliLength": 296,
+      "mainUid": "e71d-15"
     },
-    "fe0b-3": {
-      "renderedLength": 1147,
-      "gzipLength": 383,
-      "brotliLength": 300,
-      "mainUid": "fe0b-2"
+    "e71d-18": {
+      "renderedLength": 1113,
+      "gzipLength": 367,
+      "brotliLength": 297,
+      "mainUid": "e71d-17"
     },
-    "fe0b-5": {
-      "renderedLength": 103,
-      "gzipLength": 108,
-      "brotliLength": 84,
-      "mainUid": "fe0b-4"
+    "e71d-20": {
+      "renderedLength": 1474,
+      "gzipLength": 388,
+      "brotliLength": 336,
+      "mainUid": "e71d-19"
     },
-    "fe0b-7": {
+    "e71d-22": {
+      "renderedLength": 86,
+      "gzipLength": 91,
+      "brotliLength": 77,
+      "mainUid": "e71d-21"
+    },
+    "e71d-24": {
       "renderedLength": 0,
       "gzipLength": 0,
       "brotliLength": 0,
-      "mainUid": "fe0b-6"
+      "mainUid": "e71d-23"
     }
   },
   "nodeMetas": {
-    "fe0b-0": {
+    "e71d-15": {
       "id": "/src/mixins/Margin/Margin.ts",
       "moduleParts": {
-        "index.cjs.js": "fe0b-1"
+        "index.esm.js": "e71d-16"
       },
       "imported": [
         {
-          "uid": "fe0b-11"
+          "uid": "e71d-29"
         }
       ],
       "importedBy": [
         {
-          "uid": "fe0b-8"
+          "uid": "e71d-25"
         }
       ]
     },
-    "fe0b-2": {
+    "e71d-17": {
       "id": "/src/mixins/Padding/Padding.ts",
       "moduleParts": {
-        "index.cjs.js": "fe0b-3"
+        "index.esm.js": "e71d-18"
       },
       "imported": [
         {
-          "uid": "fe0b-11"
+          "uid": "e71d-29"
         }
       ],
       "importedBy": [
         {
-          "uid": "fe0b-9"
+          "uid": "e71d-26"
         }
       ]
     },
-    "fe0b-4": {
+    "e71d-19": {
+      "id": "/src/mixins/Position/Position.ts",
+      "moduleParts": {
+        "index.esm.js": "e71d-20"
+      },
+      "imported": [
+        {
+          "uid": "e71d-29"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "e71d-27"
+        }
+      ]
+    },
+    "e71d-21": {
       "id": "/src/mixins/Space/Space.ts",
       "moduleParts": {
-        "index.cjs.js": "fe0b-5"
+        "index.esm.js": "e71d-22"
       },
       "imported": [
         {
-          "uid": "fe0b-11"
+          "uid": "e71d-29"
         },
         {
-          "uid": "fe0b-8"
+          "uid": "e71d-25"
         },
         {
-          "uid": "fe0b-9"
+          "uid": "e71d-26"
         }
       ],
       "importedBy": [
         {
-          "uid": "fe0b-10"
+          "uid": "e71d-28"
         }
       ]
     },
-    "fe0b-6": {
+    "e71d-23": {
       "id": "/src/index.ts",
       "moduleParts": {
-        "index.cjs.js": "fe0b-7"
+        "index.esm.js": "e71d-24"
       },
       "imported": [
         {
-          "uid": "fe0b-8"
+          "uid": "e71d-25"
         },
         {
-          "uid": "fe0b-9"
+          "uid": "e71d-26"
         },
         {
-          "uid": "fe0b-10"
+          "uid": "e71d-27"
+        },
+        {
+          "uid": "e71d-28"
         }
       ],
       "importedBy": [],
       "isEntry": true
     },
-    "fe0b-8": {
+    "e71d-25": {
       "id": "/src/mixins/Margin/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "fe0b-0"
+          "uid": "e71d-15"
         }
       ],
       "importedBy": [
         {
-          "uid": "fe0b-6"
+          "uid": "e71d-23"
         },
         {
-          "uid": "fe0b-4"
+          "uid": "e71d-21"
         }
       ]
     },
-    "fe0b-9": {
+    "e71d-26": {
       "id": "/src/mixins/Padding/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "fe0b-2"
+          "uid": "e71d-17"
         }
       ],
       "importedBy": [
         {
-          "uid": "fe0b-6"
+          "uid": "e71d-23"
         },
         {
-          "uid": "fe0b-4"
+          "uid": "e71d-21"
         }
       ]
     },
-    "fe0b-10": {
+    "e71d-27": {
+      "id": "/src/mixins/Position/index.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "e71d-19"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "e71d-23"
+        }
+      ]
+    },
+    "e71d-28": {
       "id": "/src/mixins/Space/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "fe0b-4"
+          "uid": "e71d-21"
         }
       ],
       "importedBy": [
         {
-          "uid": "fe0b-6"
+          "uid": "e71d-23"
         }
       ]
     },
-    "fe0b-11": {
+    "e71d-29": {
       "id": "styled-components",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "fe0b-0"
+          "uid": "e71d-15"
         },
         {
-          "uid": "fe0b-2"
+          "uid": "e71d-17"
         },
         {
-          "uid": "fe0b-4"
+          "uid": "e71d-19"
+        },
+        {
+          "uid": "e71d-21"
         }
       ],
       "isExternal": true
@@ -209,9 +255,6 @@
   "options": {
     "gzip": true,
     "brotli": true,
-    "sourcemap": false
-  }
-}": true,
     "sourcemap": false
   }
 }
