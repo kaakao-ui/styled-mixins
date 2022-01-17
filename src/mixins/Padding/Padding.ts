@@ -13,11 +13,11 @@ function Padding(props: IPadding): FlattenSimpleInterpolation | undefined {
 
   if (!Object.keys(p)) return undefined;
 
-  p.b = p.b && p.b !== p.m ? theme?.space?.[Number(p.b)] : p.b;
-  p.l = p.l && p.l !== p.m ? theme?.space?.[Number(p.l)] : p.l;
-  p.m = p.m ? theme?.space?.[Number(p.m)] : p.m;
-  p.r = p.r && p.r !== p.m ? theme?.space?.[Number(p.r)] : p.r;
-  p.t = p.t && p.t !== p.m ? theme?.space?.[Number(p.t)] : p.t;
+  p.b = p.b && p.b !== p.m ? theme?.space?.[Number(p.b)] || p.b : '';
+  p.l = p.l && p.l !== p.m ? theme?.space?.[Number(p.l)] || p.l : '';
+  p.m = p.m ? theme?.space?.[Number(p.m)] || p.m : '';
+  p.r = p.r && p.r !== p.m ? theme?.space?.[Number(p.r)] || p.r : '';
+  p.t = p.t && p.t !== p.m ? theme?.space?.[Number(p.t)] || p.t : '';
 
   return css`
     padding: ${p.m};

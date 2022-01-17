@@ -3,7 +3,7 @@ import { Margin } from '../Margin';
 import { Padding } from '../Padding';
 import { ISpace } from './Space.types';
 
-function Space(props: ISpace): FlattenSimpleInterpolation | undefined {
+function Space(props: ISpace): FlattenSimpleInterpolation {
   return css`
     ${Margin(props)};
     ${Padding(props)};
