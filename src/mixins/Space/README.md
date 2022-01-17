@@ -23,9 +23,9 @@ const Container = styled.section`
 
 ## 📓 Documentation
 
-| Theme Key   | Props    | CSS Map                                                | Interface                                                                   |
-| ----------- | -------- | ------------------------------------------------------ | --------------------------------------------------------------------------- |
-| theme.space | m<br />p | See [Margin](../Margin)<br />See [Padding](../Padding) | <pre>interface ISpace {<br /> m?: IMargin;<br /> p?: IPadding;<br />}</pre> |
+| Theme Key   | Props | CSS Map                                                | Interface                                                |
+| ----------- | ----- | ------------------------------------------------------ | -------------------------------------------------------- |
+| theme.space |       | See [Margin](../Margin)<br />See [Padding](../Padding) | <pre>interface ISpace extends IMargin, IPadding {}</pre> |
 
 ## 🚀 Examples
 
@@ -55,7 +55,7 @@ import styled from 'styled-components';
 import { Space } from '@kaakao-ui/styled-mixins';
 
 const Container = styled.section`
-  ${Space({ m: { t: 1 }, p: { x: 2 } })};
+  ${Space({ mt: 1, px: 2 })};
 `;
 ```
 
@@ -76,7 +76,7 @@ import styled from 'styled-components';
 import { Space } from '@kaakao-ui/styled-mixins';
 
 const Container = styled.section`
-  ${Space({ m: { t: '1rem' }, p: { x: '5px' } })};
+  ${Space({ mt: '1rem', px: '5px' })};
 `;
 ```
 
