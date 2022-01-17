@@ -4,7 +4,7 @@
     "name": "root",
     "children": [
       {
-        "name": "index.esm.js",
+        "name": "index.cjs.js",
         "children": [
           {
             "name": "src",
@@ -14,20 +14,20 @@
                 "children": [
                   {
                     "name": "Margin/Margin.ts",
-                    "uid": "31f2-13"
+                    "uid": "dba2-1"
                   },
                   {
                     "name": "Padding/Padding.ts",
-                    "uid": "31f2-15"
+                    "uid": "dba2-3"
                   },
                   {
                     "name": "Space/Space.ts",
-                    "uid": "31f2-17"
+                    "uid": "dba2-5"
                   }
                 ]
               },
               {
-                "uid": "31f2-19",
+                "uid": "dba2-7",
                 "name": "index.ts"
               }
             ]
@@ -38,166 +38,166 @@
     "isRoot": true
   },
   "nodeParts": {
-    "31f2-13": {
-      "renderedLength": 1090,
-      "gzipLength": 369,
-      "brotliLength": 302,
-      "mainUid": "31f2-12"
+    "dba2-1": {
+      "renderedLength": 1596,
+      "gzipLength": 450,
+      "brotliLength": 367,
+      "mainUid": "dba2-0"
     },
-    "31f2-15": {
-      "renderedLength": 1101,
-      "gzipLength": 372,
-      "brotliLength": 315,
-      "mainUid": "31f2-14"
+    "dba2-3": {
+      "renderedLength": 1607,
+      "gzipLength": 454,
+      "brotliLength": 365,
+      "mainUid": "dba2-2"
     },
-    "31f2-17": {
-      "renderedLength": 86,
-      "gzipLength": 91,
-      "brotliLength": 77,
-      "mainUid": "31f2-16"
+    "dba2-5": {
+      "renderedLength": 103,
+      "gzipLength": 108,
+      "brotliLength": 84,
+      "mainUid": "dba2-4"
     },
-    "31f2-19": {
+    "dba2-7": {
       "renderedLength": 0,
       "gzipLength": 0,
       "brotliLength": 0,
-      "mainUid": "31f2-18"
+      "mainUid": "dba2-6"
     }
   },
   "nodeMetas": {
-    "31f2-12": {
+    "dba2-0": {
       "id": "/src/mixins/Margin/Margin.ts",
       "moduleParts": {
-        "index.esm.js": "31f2-13"
+        "index.cjs.js": "dba2-1"
       },
       "imported": [
         {
-          "uid": "31f2-23"
+          "uid": "dba2-11"
         }
       ],
       "importedBy": [
         {
-          "uid": "31f2-20"
+          "uid": "dba2-8"
         }
       ]
     },
-    "31f2-14": {
+    "dba2-2": {
       "id": "/src/mixins/Padding/Padding.ts",
       "moduleParts": {
-        "index.esm.js": "31f2-15"
+        "index.cjs.js": "dba2-3"
       },
       "imported": [
         {
-          "uid": "31f2-23"
+          "uid": "dba2-11"
         }
       ],
       "importedBy": [
         {
-          "uid": "31f2-21"
+          "uid": "dba2-9"
         }
       ]
     },
-    "31f2-16": {
+    "dba2-4": {
       "id": "/src/mixins/Space/Space.ts",
       "moduleParts": {
-        "index.esm.js": "31f2-17"
+        "index.cjs.js": "dba2-5"
       },
       "imported": [
         {
-          "uid": "31f2-23"
+          "uid": "dba2-11"
         },
         {
-          "uid": "31f2-20"
+          "uid": "dba2-8"
         },
         {
-          "uid": "31f2-21"
+          "uid": "dba2-9"
         }
       ],
       "importedBy": [
         {
-          "uid": "31f2-22"
+          "uid": "dba2-10"
         }
       ]
     },
-    "31f2-18": {
+    "dba2-6": {
       "id": "/src/index.ts",
       "moduleParts": {
-        "index.esm.js": "31f2-19"
+        "index.cjs.js": "dba2-7"
       },
       "imported": [
         {
-          "uid": "31f2-20"
+          "uid": "dba2-8"
         },
         {
-          "uid": "31f2-21"
+          "uid": "dba2-9"
         },
         {
-          "uid": "31f2-22"
+          "uid": "dba2-10"
         }
       ],
       "importedBy": [],
       "isEntry": true
     },
-    "31f2-20": {
+    "dba2-8": {
       "id": "/src/mixins/Margin/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "31f2-12"
+          "uid": "dba2-0"
         }
       ],
       "importedBy": [
         {
-          "uid": "31f2-18"
+          "uid": "dba2-6"
         },
         {
-          "uid": "31f2-16"
+          "uid": "dba2-4"
         }
       ]
     },
-    "31f2-21": {
+    "dba2-9": {
       "id": "/src/mixins/Padding/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "31f2-14"
+          "uid": "dba2-2"
         }
       ],
       "importedBy": [
         {
-          "uid": "31f2-18"
+          "uid": "dba2-6"
         },
         {
-          "uid": "31f2-16"
+          "uid": "dba2-4"
         }
       ]
     },
-    "31f2-22": {
+    "dba2-10": {
       "id": "/src/mixins/Space/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "31f2-16"
+          "uid": "dba2-4"
         }
       ],
       "importedBy": [
         {
-          "uid": "31f2-18"
+          "uid": "dba2-6"
         }
       ]
     },
-    "31f2-23": {
+    "dba2-11": {
       "id": "styled-components",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "31f2-12"
+          "uid": "dba2-0"
         },
         {
-          "uid": "31f2-14"
+          "uid": "dba2-2"
         },
         {
-          "uid": "31f2-16"
+          "uid": "dba2-4"
         }
       ],
       "isExternal": true
@@ -209,6 +209,9 @@
   "options": {
     "gzip": true,
     "brotli": true,
+    "sourcemap": false
+  }
+}": true,
     "sourcemap": false
   }
 }
