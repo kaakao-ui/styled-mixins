@@ -2,22 +2,22 @@ import { css, useTheme, FlattenSimpleInterpolation } from 'styled-components';
 import { IPadding } from './Padding.types';
 
 function Padding(props: IPadding): FlattenSimpleInterpolation | undefined {
-  const { space } = useTheme();
+  const theme = useTheme();
   const p = {
-    b: props.b || props.y || props.p,
-    l: props.l || props.x || props.p,
+    b: props.pb || props.py || props.p,
+    l: props.pl || props.px || props.p,
     m: props.p,
-    r: props.r || props.x || props.p,
-    t: props.t || props.y || props.p
+    r: props.pr || props.px || props.p,
+    t: props.pt || props.py || props.p
   };
 
   if (!Object.keys(p)) return undefined;
 
-  p.b = p.b && p.b !== p.m ? space?.[Number(p.b)] : p.b;
-  p.l = p.l && p.l !== p.m ? space?.[Number(p.l)] : p.l;
-  p.m = p.m ? space?.[Number(p.m)] : p.m;
-  p.r = p.r && p.r !== p.m ? space?.[Number(p.r)] : p.r;
-  p.t = p.t && p.t !== p.m ? space?.[Number(p.t)] : p.t;
+  p.b = p.b && p.b !== p.m ? theme?.space?.[Number(p.b)] : p.b;
+  p.l = p.l && p.l !== p.m ? theme?.space?.[Number(p.l)] : p.l;
+  p.m = p.m ? theme?.space?.[Number(p.m)] : p.m;
+  p.r = p.r && p.r !== p.m ? theme?.space?.[Number(p.r)] : p.r;
+  p.t = p.t && p.t !== p.m ? theme?.space?.[Number(p.t)] : p.t;
 
   return css`
     padding: ${p.m};

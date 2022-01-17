@@ -2,22 +2,22 @@ import { css, useTheme, FlattenSimpleInterpolation } from 'styled-components';
 import { IMargin } from './Margin.types';
 
 function Margin(props: IMargin): FlattenSimpleInterpolation | undefined {
-  const { space } = useTheme();
+  const theme = useTheme();
   const m = {
-    b: props.b || props.y || props.m,
-    l: props.l || props.x || props.m,
+    b: props.mb || props.my || props.m,
+    l: props.ml || props.mx || props.m,
     m: props.m,
-    r: props.r || props.x || props.m,
-    t: props.t || props.y || props.m
+    r: props.mr || props.mx || props.m,
+    t: props.mt || props.my || props.m
   };
 
   if (!Object.keys(m)) return undefined;
 
-  m.b = m.b && m.b !== m.m ? space?.[Number(m.b)] : m.b;
-  m.l = m.l && m.l !== m.m ? space?.[Number(m.l)] : m.l;
-  m.m = m.m ? space?.[Number(m.m)] : m.m;
-  m.r = m.r && m.r !== m.m ? space?.[Number(m.r)] : m.r;
-  m.t = m.t && m.t !== m.m ? space?.[Number(m.t)] : m.t;
+  m.b = m.b && m.b !== m.m ? theme?.space?.[Number(m.b)] : m.b;
+  m.l = m.l && m.l !== m.m ? theme?.space?.[Number(m.l)] : m.l;
+  m.m = m.m ? theme?.space?.[Number(m.m)] : m.m;
+  m.r = m.r && m.r !== m.m ? theme?.space?.[Number(m.r)] : m.r;
+  m.t = m.t && m.t !== m.m ? theme?.space?.[Number(m.t)] : m.t;
 
   return css`
     margin: ${m.m};
