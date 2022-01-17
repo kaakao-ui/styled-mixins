@@ -1,4 +1,4 @@
-# Border Radius
+# Box Shadow
 
 ## 🤖 Installation
 
