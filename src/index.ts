@@ -1,3 +1,4 @@
+export * from './mixins/Background';
 export * from './mixins/BorderRadius';
 export * from './mixins/Gradient';
 export * from './mixins/Layout';
