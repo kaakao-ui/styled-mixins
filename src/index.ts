@@ -1,4 +1,5 @@
 export * from './mixins/BorderRadius';
+export * from './mixins/Gradient';
 export * from './mixins/Layout';
 export * from './mixins/Margin';
 export * from './mixins/Padding';
