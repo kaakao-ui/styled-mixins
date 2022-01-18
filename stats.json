@@ -14,56 +14,60 @@
                 "children": [
                   {
                     "name": "Background/Background.ts",
-                    "uid": "ef21-40"
+                    "uid": "ac64-43"
                   },
                   {
                     "name": "BorderRadius/BorderRadius.ts",
-                    "uid": "ef21-42"
+                    "uid": "ac64-45"
                   },
                   {
                     "name": "BoxShadow/BoxShadow.ts",
-                    "uid": "ef21-44"
+                    "uid": "ac64-47"
                   },
                   {
                     "name": "Flex/Flex.ts",
-                    "uid": "ef21-46"
+                    "uid": "ac64-49"
                   },
                   {
                     "name": "Gradient/Gradient.ts",
-                    "uid": "ef21-48"
+                    "uid": "ac64-51"
+                  },
+                  {
+                    "name": "Grid/Grid.ts",
+                    "uid": "ac64-53"
                   },
                   {
                     "name": "Layout/Layout.ts",
-                    "uid": "ef21-50"
+                    "uid": "ac64-55"
                   },
                   {
                     "name": "Margin/Margin.ts",
-                    "uid": "ef21-52"
+                    "uid": "ac64-57"
                   },
                   {
                     "name": "Other/Other.ts",
-                    "uid": "ef21-54"
+                    "uid": "ac64-59"
                   },
                   {
                     "name": "Padding/Padding.ts",
-                    "uid": "ef21-56"
+                    "uid": "ac64-61"
                   },
                   {
                     "name": "Position/Position.ts",
-                    "uid": "ef21-58"
+                    "uid": "ac64-63"
                   },
                   {
                     "name": "Space/Space.ts",
-                    "uid": "ef21-60"
+                    "uid": "ac64-65"
                   },
                   {
                     "name": "Typography/Typography.ts",
-                    "uid": "ef21-62"
+                    "uid": "ac64-67"
                   }
                 ]
               },
               {
-                "uid": "ef21-64",
+                "uid": "ac64-69",
                 "name": "index.ts"
               }
             ]
@@ -74,544 +78,586 @@
     "isRoot": true
   },
   "nodeParts": {
-    "ef21-40": {
+    "ac64-43": {
       "renderedLength": 277,
       "gzipLength": 153,
       "brotliLength": 120,
-      "mainUid": "ef21-39"
+      "mainUid": "ac64-42"
     },
-    "ef21-42": {
+    "ac64-45": {
       "renderedLength": 1391,
       "gzipLength": 400,
       "brotliLength": 358,
-      "mainUid": "ef21-41"
+      "mainUid": "ac64-44"
     },
-    "ef21-44": {
+    "ac64-47": {
       "renderedLength": 235,
       "gzipLength": 165,
       "brotliLength": 151,
-      "mainUid": "ef21-43"
+      "mainUid": "ac64-46"
     },
-    "ef21-46": {
+    "ac64-49": {
       "renderedLength": 487,
       "gzipLength": 213,
       "brotliLength": 180,
-      "mainUid": "ef21-45"
+      "mainUid": "ac64-48"
     },
-    "ef21-48": {
+    "ac64-51": {
       "renderedLength": 183,
       "gzipLength": 139,
       "brotliLength": 111,
-      "mainUid": "ef21-47"
+      "mainUid": "ac64-50"
     },
-    "ef21-50": {
+    "ac64-53": {
+      "renderedLength": 703,
+      "gzipLength": 248,
+      "brotliLength": 216,
+      "mainUid": "ac64-52"
+    },
+    "ac64-55": {
       "renderedLength": 840,
       "gzipLength": 301,
       "brotliLength": 255,
-      "mainUid": "ef21-49"
+      "mainUid": "ac64-54"
     },
-    "ef21-52": {
+    "ac64-57": {
       "renderedLength": 1062,
       "gzipLength": 359,
       "brotliLength": 290,
-      "mainUid": "ef21-51"
+      "mainUid": "ac64-56"
     },
-    "ef21-54": {
+    "ac64-59": {
       "renderedLength": 633,
       "gzipLength": 292,
       "brotliLength": 225,
-      "mainUid": "ef21-53"
+      "mainUid": "ac64-58"
     },
-    "ef21-56": {
+    "ac64-61": {
       "renderedLength": 1073,
       "gzipLength": 354,
       "brotliLength": 286,
-      "mainUid": "ef21-55"
+      "mainUid": "ac64-60"
     },
-    "ef21-58": {
+    "ac64-63": {
       "renderedLength": 1474,
       "gzipLength": 388,
       "brotliLength": 336,
-      "mainUid": "ef21-57"
+      "mainUid": "ac64-62"
     },
-    "ef21-60": {
+    "ac64-65": {
       "renderedLength": 86,
       "gzipLength": 91,
       "brotliLength": 77,
-      "mainUid": "ef21-59"
+      "mainUid": "ac64-64"
     },
-    "ef21-62": {
+    "ac64-67": {
       "renderedLength": 623,
       "gzipLength": 274,
       "brotliLength": 213,
-      "mainUid": "ef21-61"
+      "mainUid": "ac64-66"
     },
-    "ef21-64": {
+    "ac64-69": {
       "renderedLength": 0,
       "gzipLength": 0,
       "brotliLength": 0,
-      "mainUid": "ef21-63"
+      "mainUid": "ac64-68"
     }
   },
   "nodeMetas": {
-    "ef21-39": {
+    "ac64-42": {
       "id": "/src/mixins/Background/Background.ts",
       "moduleParts": {
-        "index.esm.js": "ef21-40"
+        "index.esm.js": "ac64-43"
       },
       "imported": [
         {
-          "uid": "ef21-77"
+          "uid": "ac64-83"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-65"
+          "uid": "ac64-70"
         }
       ]
     },
-    "ef21-41": {
+    "ac64-44": {
       "id": "/src/mixins/BorderRadius/BorderRadius.ts",
       "moduleParts": {
-        "index.esm.js": "ef21-42"
+        "index.esm.js": "ac64-45"
       },
       "imported": [
         {
-          "uid": "ef21-77"
+          "uid": "ac64-83"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-66"
+          "uid": "ac64-71"
         }
       ]
     },
-    "ef21-43": {
+    "ac64-46": {
       "id": "/src/mixins/BoxShadow/BoxShadow.ts",
       "moduleParts": {
-        "index.esm.js": "ef21-44"
+        "index.esm.js": "ac64-47"
       },
       "imported": [
         {
-          "uid": "ef21-77"
+          "uid": "ac64-83"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-67"
+          "uid": "ac64-72"
         }
       ]
     },
-    "ef21-45": {
+    "ac64-48": {
       "id": "/src/mixins/Flex/Flex.ts",
       "moduleParts": {
-        "index.esm.js": "ef21-46"
+        "index.esm.js": "ac64-49"
       },
       "imported": [
         {
-          "uid": "ef21-77"
+          "uid": "ac64-83"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-68"
+          "uid": "ac64-73"
         }
       ]
     },
-    "ef21-47": {
+    "ac64-50": {
       "id": "/src/mixins/Gradient/Gradient.ts",
       "moduleParts": {
-        "index.esm.js": "ef21-48"
+        "index.esm.js": "ac64-51"
       },
       "imported": [
         {
-          "uid": "ef21-77"
+          "uid": "ac64-83"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-69"
+          "uid": "ac64-74"
         }
       ]
     },
-    "ef21-49": {
+    "ac64-52": {
+      "id": "/src/mixins/Grid/Grid.ts",
+      "moduleParts": {
+        "index.esm.js": "ac64-53"
+      },
+      "imported": [
+        {
+          "uid": "ac64-83"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "ac64-75"
+        }
+      ]
+    },
+    "ac64-54": {
       "id": "/src/mixins/Layout/Layout.ts",
       "moduleParts": {
-        "index.esm.js": "ef21-50"
+        "index.esm.js": "ac64-55"
       },
       "imported": [
         {
-          "uid": "ef21-77"
+          "uid": "ac64-83"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-70"
+          "uid": "ac64-76"
         }
       ]
     },
-    "ef21-51": {
+    "ac64-56": {
       "id": "/src/mixins/Margin/Margin.ts",
       "moduleParts": {
-        "index.esm.js": "ef21-52"
+        "index.esm.js": "ac64-57"
       },
       "imported": [
         {
-          "uid": "ef21-77"
+          "uid": "ac64-83"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-71"
+          "uid": "ac64-77"
         }
       ]
     },
-    "ef21-53": {
+    "ac64-58": {
       "id": "/src/mixins/Other/Other.ts",
       "moduleParts": {
-        "index.esm.js": "ef21-54"
+        "index.esm.js": "ac64-59"
       },
       "imported": [
         {
-          "uid": "ef21-77"
+          "uid": "ac64-83"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-72"
+          "uid": "ac64-78"
         }
       ]
     },
-    "ef21-55": {
+    "ac64-60": {
       "id": "/src/mixins/Padding/Padding.ts",
       "moduleParts": {
-        "index.esm.js": "ef21-56"
+        "index.esm.js": "ac64-61"
       },
       "imported": [
         {
-          "uid": "ef21-77"
+          "uid": "ac64-83"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-73"
+          "uid": "ac64-79"
         }
       ]
     },
-    "ef21-57": {
+    "ac64-62": {
       "id": "/src/mixins/Position/Position.ts",
       "moduleParts": {
-        "index.esm.js": "ef21-58"
+        "index.esm.js": "ac64-63"
       },
       "imported": [
         {
-          "uid": "ef21-77"
+          "uid": "ac64-83"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-74"
+          "uid": "ac64-80"
         }
       ]
     },
-    "ef21-59": {
+    "ac64-64": {
       "id": "/src/mixins/Space/Space.ts",
       "moduleParts": {
-        "index.esm.js": "ef21-60"
+        "index.esm.js": "ac64-65"
       },
       "imported": [
         {
-          "uid": "ef21-77"
+          "uid": "ac64-83"
         },
         {
-          "uid": "ef21-71"
+          "uid": "ac64-77"
         },
         {
-          "uid": "ef21-73"
+          "uid": "ac64-79"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-75"
+          "uid": "ac64-81"
         }
       ]
     },
-    "ef21-61": {
+    "ac64-66": {
       "id": "/src/mixins/Typography/Typography.ts",
       "moduleParts": {
-        "index.esm.js": "ef21-62"
+        "index.esm.js": "ac64-67"
       },
       "imported": [
         {
-          "uid": "ef21-77"
+          "uid": "ac64-83"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-76"
+          "uid": "ac64-82"
         }
       ]
     },
-    "ef21-63": {
+    "ac64-68": {
       "id": "/src/index.ts",
       "moduleParts": {
-        "index.esm.js": "ef21-64"
+        "index.esm.js": "ac64-69"
       },
       "imported": [
         {
-          "uid": "ef21-65"
+          "uid": "ac64-70"
         },
         {
-          "uid": "ef21-66"
+          "uid": "ac64-71"
         },
         {
-          "uid": "ef21-67"
+          "uid": "ac64-72"
         },
         {
-          "uid": "ef21-68"
+          "uid": "ac64-73"
         },
         {
-          "uid": "ef21-69"
+          "uid": "ac64-74"
         },
         {
-          "uid": "ef21-70"
+          "uid": "ac64-75"
         },
         {
-          "uid": "ef21-71"
+          "uid": "ac64-76"
         },
         {
-          "uid": "ef21-72"
+          "uid": "ac64-77"
         },
         {
-          "uid": "ef21-73"
+          "uid": "ac64-78"
         },
         {
-          "uid": "ef21-74"
+          "uid": "ac64-79"
         },
         {
-          "uid": "ef21-75"
+          "uid": "ac64-80"
         },
         {
-          "uid": "ef21-76"
+          "uid": "ac64-81"
+        },
+        {
+          "uid": "ac64-82"
         }
       ],
       "importedBy": [],
       "isEntry": true
     },
-    "ef21-65": {
+    "ac64-70": {
       "id": "/src/mixins/Background/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "ef21-39"
+          "uid": "ac64-42"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-63"
+          "uid": "ac64-68"
         }
       ]
     },
-    "ef21-66": {
+    "ac64-71": {
       "id": "/src/mixins/BorderRadius/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "ef21-41"
+          "uid": "ac64-44"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-63"
+          "uid": "ac64-68"
         }
       ]
     },
-    "ef21-67": {
+    "ac64-72": {
       "id": "/src/mixins/BoxShadow/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "ef21-43"
+          "uid": "ac64-46"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-63"
+          "uid": "ac64-68"
         }
       ]
     },
-    "ef21-68": {
+    "ac64-73": {
       "id": "/src/mixins/Flex/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "ef21-45"
+          "uid": "ac64-48"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-63"
+          "uid": "ac64-68"
         }
       ]
     },
-    "ef21-69": {
+    "ac64-74": {
       "id": "/src/mixins/Gradient/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "ef21-47"
+          "uid": "ac64-50"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-63"
+          "uid": "ac64-68"
         }
       ]
     },
-    "ef21-70": {
+    "ac64-75": {
+      "id": "/src/mixins/Grid/index.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "ac64-52"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "ac64-68"
+        }
+      ]
+    },
+    "ac64-76": {
       "id": "/src/mixins/Layout/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "ef21-49"
+          "uid": "ac64-54"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-63"
+          "uid": "ac64-68"
         }
       ]
     },
-    "ef21-71": {
+    "ac64-77": {
       "id": "/src/mixins/Margin/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "ef21-51"
+          "uid": "ac64-56"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-63"
+          "uid": "ac64-68"
         },
         {
-          "uid": "ef21-59"
+          "uid": "ac64-64"
         }
       ]
     },
-    "ef21-72": {
+    "ac64-78": {
       "id": "/src/mixins/Other/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "ef21-53"
+          "uid": "ac64-58"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-63"
+          "uid": "ac64-68"
         }
       ]
     },
-    "ef21-73": {
+    "ac64-79": {
       "id": "/src/mixins/Padding/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "ef21-55"
+          "uid": "ac64-60"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-63"
+          "uid": "ac64-68"
         },
         {
-          "uid": "ef21-59"
+          "uid": "ac64-64"
         }
       ]
     },
-    "ef21-74": {
+    "ac64-80": {
       "id": "/src/mixins/Position/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "ef21-57"
+          "uid": "ac64-62"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-63"
+          "uid": "ac64-68"
         }
       ]
     },
-    "ef21-75": {
+    "ac64-81": {
       "id": "/src/mixins/Space/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "ef21-59"
+          "uid": "ac64-64"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-63"
+          "uid": "ac64-68"
         }
       ]
     },
-    "ef21-76": {
+    "ac64-82": {
       "id": "/src/mixins/Typography/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "ef21-61"
+          "uid": "ac64-66"
         }
       ],
       "importedBy": [
         {
-          "uid": "ef21-63"
+          "uid": "ac64-68"
         }
       ]
     },
-    "ef21-77": {
+    "ac64-83": {
       "id": "styled-components",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "ef21-39"
+          "uid": "ac64-42"
         },
         {
-          "uid": "ef21-41"
+          "uid": "ac64-44"
         },
         {
-          "uid": "ef21-43"
+          "uid": "ac64-46"
         },
         {
-          "uid": "ef21-45"
+          "uid": "ac64-48"
         },
         {
-          "uid": "ef21-47"
+          "uid": "ac64-50"
         },
         {
-          "uid": "ef21-49"
+          "uid": "ac64-52"
         },
         {
-          "uid": "ef21-51"
+          "uid": "ac64-54"
         },
         {
-          "uid": "ef21-53"
+          "uid": "ac64-56"
         },
         {
-          "uid": "ef21-55"
+          "uid": "ac64-58"
         },
         {
-          "uid": "ef21-57"
+          "uid": "ac64-60"
         },
         {
-          "uid": "ef21-59"
+          "uid": "ac64-62"
         },
         {
-          "uid": "ef21-61"
+          "uid": "ac64-64"
+        },
+        {
+          "uid": "ac64-66"
         }
       ],
       "isExternal": true
