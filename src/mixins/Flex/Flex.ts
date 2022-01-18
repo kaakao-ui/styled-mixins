@@ -6,7 +6,6 @@ function Flex(props: IFlex): FlattenSimpleInterpolation {
     align-content: ${props.alignContent};
     align-items: ${props.alignItems};
     align-self: ${props.alignSelf};
-    display: flex;
     flex: ${props.flex};
     flex-basis: ${props.flexBasis};
     flex-direction: ${props.flexDirection};

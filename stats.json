@@ -4,7 +4,7 @@
     "name": "root",
     "children": [
       {
-        "name": "index.cjs.js",
+        "name": "index.esm.js",
         "children": [
           {
             "name": "src",
@@ -14,52 +14,56 @@
                 "children": [
                   {
                     "name": "Background/Background.ts",
-                    "uid": "547d-1"
+                    "uid": "2ce5-40"
                   },
                   {
                     "name": "BorderRadius/BorderRadius.ts",
-                    "uid": "547d-3"
+                    "uid": "2ce5-42"
                   },
                   {
                     "name": "BoxShadow/BoxShadow.ts",
-                    "uid": "547d-5"
+                    "uid": "2ce5-44"
+                  },
+                  {
+                    "name": "Flex/Flex.ts",
+                    "uid": "2ce5-46"
                   },
                   {
                     "name": "Gradient/Gradient.ts",
-                    "uid": "547d-7"
+                    "uid": "2ce5-48"
                   },
                   {
                     "name": "Layout/Layout.ts",
-                    "uid": "547d-9"
+                    "uid": "2ce5-50"
                   },
                   {
                     "name": "Margin/Margin.ts",
-                    "uid": "547d-11"
+                    "uid": "2ce5-52"
                   },
                   {
                     "name": "Other/Other.ts",
-                    "uid": "547d-13"
+                    "uid": "2ce5-54"
                   },
                   {
                     "name": "Padding/Padding.ts",
-                    "uid": "547d-15"
+                    "uid": "2ce5-56"
                   },
                   {
                     "name": "Position/Position.ts",
-                    "uid": "547d-17"
+                    "uid": "2ce5-58"
                   },
                   {
                     "name": "Space/Space.ts",
-                    "uid": "547d-19"
+                    "uid": "2ce5-60"
                   },
                   {
                     "name": "Typography/Typography.ts",
-                    "uid": "547d-21"
+                    "uid": "2ce5-62"
                   }
                 ]
               },
               {
-                "uid": "547d-23",
+                "uid": "2ce5-64",
                 "name": "index.ts"
               }
             ]
@@ -70,502 +74,544 @@
     "isRoot": true
   },
   "nodeParts": {
-    "547d-1": {
-      "renderedLength": 294,
-      "gzipLength": 167,
-      "brotliLength": 121,
-      "mainUid": "547d-0"
-    },
-    "547d-3": {
-      "renderedLength": 1425,
-      "gzipLength": 414,
-      "brotliLength": 361,
-      "mainUid": "547d-2"
-    },
-    "547d-5": {
-      "renderedLength": 269,
-      "gzipLength": 179,
-      "brotliLength": 151,
-      "mainUid": "547d-4"
-    },
-    "547d-7": {
-      "renderedLength": 200,
+    "2ce5-40": {
+      "renderedLength": 277,
       "gzipLength": 153,
-      "brotliLength": 116,
-      "mainUid": "547d-6"
+      "brotliLength": 120,
+      "mainUid": "2ce5-39"
     },
-    "547d-9": {
-      "renderedLength": 874,
-      "gzipLength": 313,
-      "brotliLength": 260,
-      "mainUid": "547d-8"
+    "2ce5-42": {
+      "renderedLength": 1391,
+      "gzipLength": 400,
+      "brotliLength": 358,
+      "mainUid": "2ce5-41"
     },
-    "547d-11": {
-      "renderedLength": 1096,
-      "gzipLength": 375,
-      "brotliLength": 297,
-      "mainUid": "547d-10"
+    "2ce5-44": {
+      "renderedLength": 235,
+      "gzipLength": 165,
+      "brotliLength": 151,
+      "mainUid": "2ce5-43"
     },
-    "547d-13": {
-      "renderedLength": 650,
-      "gzipLength": 303,
-      "brotliLength": 236,
-      "mainUid": "547d-12"
+    "2ce5-46": {
+      "renderedLength": 500,
+      "gzipLength": 223,
+      "brotliLength": 185,
+      "mainUid": "2ce5-45"
     },
-    "547d-15": {
-      "renderedLength": 1107,
-      "gzipLength": 370,
-      "brotliLength": 295,
-      "mainUid": "547d-14"
+    "2ce5-48": {
+      "renderedLength": 183,
+      "gzipLength": 139,
+      "brotliLength": 111,
+      "mainUid": "2ce5-47"
     },
-    "547d-17": {
-      "renderedLength": 1508,
-      "gzipLength": 402,
-      "brotliLength": 328,
-      "mainUid": "547d-16"
+    "2ce5-50": {
+      "renderedLength": 840,
+      "gzipLength": 301,
+      "brotliLength": 255,
+      "mainUid": "2ce5-49"
     },
-    "547d-19": {
-      "renderedLength": 103,
-      "gzipLength": 108,
-      "brotliLength": 84,
-      "mainUid": "547d-18"
+    "2ce5-52": {
+      "renderedLength": 1062,
+      "gzipLength": 359,
+      "brotliLength": 290,
+      "mainUid": "2ce5-51"
     },
-    "547d-21": {
-      "renderedLength": 657,
-      "gzipLength": 286,
-      "brotliLength": 218,
-      "mainUid": "547d-20"
+    "2ce5-54": {
+      "renderedLength": 633,
+      "gzipLength": 292,
+      "brotliLength": 225,
+      "mainUid": "2ce5-53"
     },
-    "547d-23": {
+    "2ce5-56": {
+      "renderedLength": 1073,
+      "gzipLength": 354,
+      "brotliLength": 286,
+      "mainUid": "2ce5-55"
+    },
+    "2ce5-58": {
+      "renderedLength": 1474,
+      "gzipLength": 388,
+      "brotliLength": 336,
+      "mainUid": "2ce5-57"
+    },
+    "2ce5-60": {
+      "renderedLength": 86,
+      "gzipLength": 91,
+      "brotliLength": 77,
+      "mainUid": "2ce5-59"
+    },
+    "2ce5-62": {
+      "renderedLength": 623,
+      "gzipLength": 274,
+      "brotliLength": 213,
+      "mainUid": "2ce5-61"
+    },
+    "2ce5-64": {
       "renderedLength": 0,
       "gzipLength": 0,
       "brotliLength": 0,
-      "mainUid": "547d-22"
+      "mainUid": "2ce5-63"
     }
   },
   "nodeMetas": {
-    "547d-0": {
+    "2ce5-39": {
       "id": "/src/mixins/Background/Background.ts",
       "moduleParts": {
-        "index.cjs.js": "547d-1"
+        "index.esm.js": "2ce5-40"
       },
       "imported": [
         {
-          "uid": "547d-35"
+          "uid": "2ce5-77"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-24"
+          "uid": "2ce5-65"
         }
       ]
     },
-    "547d-2": {
+    "2ce5-41": {
       "id": "/src/mixins/BorderRadius/BorderRadius.ts",
       "moduleParts": {
-        "index.cjs.js": "547d-3"
+        "index.esm.js": "2ce5-42"
       },
       "imported": [
         {
-          "uid": "547d-35"
+          "uid": "2ce5-77"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-25"
+          "uid": "2ce5-66"
         }
       ]
     },
-    "547d-4": {
+    "2ce5-43": {
       "id": "/src/mixins/BoxShadow/BoxShadow.ts",
       "moduleParts": {
-        "index.cjs.js": "547d-5"
+        "index.esm.js": "2ce5-44"
       },
       "imported": [
         {
-          "uid": "547d-35"
+          "uid": "2ce5-77"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-26"
+          "uid": "2ce5-67"
         }
       ]
     },
-    "547d-6": {
+    "2ce5-45": {
+      "id": "/src/mixins/Flex/Flex.ts",
+      "moduleParts": {
+        "index.esm.js": "2ce5-46"
+      },
+      "imported": [
+        {
+          "uid": "2ce5-77"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2ce5-68"
+        }
+      ]
+    },
+    "2ce5-47": {
       "id": "/src/mixins/Gradient/Gradient.ts",
       "moduleParts": {
-        "index.cjs.js": "547d-7"
+        "index.esm.js": "2ce5-48"
       },
       "imported": [
         {
-          "uid": "547d-35"
+          "uid": "2ce5-77"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-27"
+          "uid": "2ce5-69"
         }
       ]
     },
-    "547d-8": {
+    "2ce5-49": {
       "id": "/src/mixins/Layout/Layout.ts",
       "moduleParts": {
-        "index.cjs.js": "547d-9"
+        "index.esm.js": "2ce5-50"
       },
       "imported": [
         {
-          "uid": "547d-35"
+          "uid": "2ce5-77"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-28"
+          "uid": "2ce5-70"
         }
       ]
     },
-    "547d-10": {
+    "2ce5-51": {
       "id": "/src/mixins/Margin/Margin.ts",
       "moduleParts": {
-        "index.cjs.js": "547d-11"
+        "index.esm.js": "2ce5-52"
       },
       "imported": [
         {
-          "uid": "547d-35"
+          "uid": "2ce5-77"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-29"
+          "uid": "2ce5-71"
         }
       ]
     },
-    "547d-12": {
+    "2ce5-53": {
       "id": "/src/mixins/Other/Other.ts",
       "moduleParts": {
-        "index.cjs.js": "547d-13"
+        "index.esm.js": "2ce5-54"
       },
       "imported": [
         {
-          "uid": "547d-35"
+          "uid": "2ce5-77"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-30"
+          "uid": "2ce5-72"
         }
       ]
     },
-    "547d-14": {
+    "2ce5-55": {
       "id": "/src/mixins/Padding/Padding.ts",
       "moduleParts": {
-        "index.cjs.js": "547d-15"
+        "index.esm.js": "2ce5-56"
       },
       "imported": [
         {
-          "uid": "547d-35"
+          "uid": "2ce5-77"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-31"
+          "uid": "2ce5-73"
         }
       ]
     },
-    "547d-16": {
+    "2ce5-57": {
       "id": "/src/mixins/Position/Position.ts",
       "moduleParts": {
-        "index.cjs.js": "547d-17"
+        "index.esm.js": "2ce5-58"
       },
       "imported": [
         {
-          "uid": "547d-35"
+          "uid": "2ce5-77"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-32"
+          "uid": "2ce5-74"
         }
       ]
     },
-    "547d-18": {
+    "2ce5-59": {
       "id": "/src/mixins/Space/Space.ts",
       "moduleParts": {
-        "index.cjs.js": "547d-19"
+        "index.esm.js": "2ce5-60"
       },
       "imported": [
         {
-          "uid": "547d-35"
+          "uid": "2ce5-77"
         },
         {
-          "uid": "547d-29"
+          "uid": "2ce5-71"
         },
         {
-          "uid": "547d-31"
+          "uid": "2ce5-73"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-33"
+          "uid": "2ce5-75"
         }
       ]
     },
-    "547d-20": {
+    "2ce5-61": {
       "id": "/src/mixins/Typography/Typography.ts",
       "moduleParts": {
-        "index.cjs.js": "547d-21"
+        "index.esm.js": "2ce5-62"
       },
       "imported": [
         {
-          "uid": "547d-35"
+          "uid": "2ce5-77"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-34"
+          "uid": "2ce5-76"
         }
       ]
     },
-    "547d-22": {
+    "2ce5-63": {
       "id": "/src/index.ts",
       "moduleParts": {
-        "index.cjs.js": "547d-23"
+        "index.esm.js": "2ce5-64"
       },
       "imported": [
         {
-          "uid": "547d-24"
+          "uid": "2ce5-65"
         },
         {
-          "uid": "547d-25"
+          "uid": "2ce5-66"
         },
         {
-          "uid": "547d-26"
+          "uid": "2ce5-67"
         },
         {
-          "uid": "547d-27"
+          "uid": "2ce5-68"
         },
         {
-          "uid": "547d-28"
+          "uid": "2ce5-69"
         },
         {
-          "uid": "547d-29"
+          "uid": "2ce5-70"
         },
         {
-          "uid": "547d-30"
+          "uid": "2ce5-71"
         },
         {
-          "uid": "547d-31"
+          "uid": "2ce5-72"
         },
         {
-          "uid": "547d-32"
+          "uid": "2ce5-73"
         },
         {
-          "uid": "547d-33"
+          "uid": "2ce5-74"
         },
         {
-          "uid": "547d-34"
+          "uid": "2ce5-75"
+        },
+        {
+          "uid": "2ce5-76"
         }
       ],
       "importedBy": [],
       "isEntry": true
     },
-    "547d-24": {
+    "2ce5-65": {
       "id": "/src/mixins/Background/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "547d-0"
+          "uid": "2ce5-39"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-22"
+          "uid": "2ce5-63"
         }
       ]
     },
-    "547d-25": {
+    "2ce5-66": {
       "id": "/src/mixins/BorderRadius/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "547d-2"
+          "uid": "2ce5-41"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-22"
+          "uid": "2ce5-63"
         }
       ]
     },
-    "547d-26": {
+    "2ce5-67": {
       "id": "/src/mixins/BoxShadow/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "547d-4"
+          "uid": "2ce5-43"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-22"
+          "uid": "2ce5-63"
         }
       ]
     },
-    "547d-27": {
+    "2ce5-68": {
+      "id": "/src/mixins/Flex/index.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "2ce5-45"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "2ce5-63"
+        }
+      ]
+    },
+    "2ce5-69": {
       "id": "/src/mixins/Gradient/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "547d-6"
+          "uid": "2ce5-47"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-22"
+          "uid": "2ce5-63"
         }
       ]
     },
-    "547d-28": {
+    "2ce5-70": {
       "id": "/src/mixins/Layout/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "547d-8"
+          "uid": "2ce5-49"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-22"
+          "uid": "2ce5-63"
         }
       ]
     },
-    "547d-29": {
+    "2ce5-71": {
       "id": "/src/mixins/Margin/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "547d-10"
+          "uid": "2ce5-51"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-22"
+          "uid": "2ce5-63"
         },
         {
-          "uid": "547d-18"
+          "uid": "2ce5-59"
         }
       ]
     },
-    "547d-30": {
+    "2ce5-72": {
       "id": "/src/mixins/Other/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "547d-12"
+          "uid": "2ce5-53"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-22"
+          "uid": "2ce5-63"
         }
       ]
     },
-    "547d-31": {
+    "2ce5-73": {
       "id": "/src/mixins/Padding/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "547d-14"
+          "uid": "2ce5-55"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-22"
+          "uid": "2ce5-63"
         },
         {
-          "uid": "547d-18"
+          "uid": "2ce5-59"
         }
       ]
     },
-    "547d-32": {
+    "2ce5-74": {
       "id": "/src/mixins/Position/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "547d-16"
+          "uid": "2ce5-57"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-22"
+          "uid": "2ce5-63"
         }
       ]
     },
-    "547d-33": {
+    "2ce5-75": {
       "id": "/src/mixins/Space/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "547d-18"
+          "uid": "2ce5-59"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-22"
+          "uid": "2ce5-63"
         }
       ]
     },
-    "547d-34": {
+    "2ce5-76": {
       "id": "/src/mixins/Typography/index.ts",
       "moduleParts": {},
       "imported": [
         {
-          "uid": "547d-20"
+          "uid": "2ce5-61"
         }
       ],
       "importedBy": [
         {
-          "uid": "547d-22"
+          "uid": "2ce5-63"
         }
       ]
     },
-    "547d-35": {
+    "2ce5-77": {
       "id": "styled-components",
       "moduleParts": {},
       "imported": [],
       "importedBy": [
         {
-          "uid": "547d-0"
+          "uid": "2ce5-39"
         },
         {
-          "uid": "547d-2"
+          "uid": "2ce5-41"
         },
         {
-          "uid": "547d-4"
+          "uid": "2ce5-43"
         },
         {
-          "uid": "547d-6"
+          "uid": "2ce5-45"
         },
         {
-          "uid": "547d-8"
+          "uid": "2ce5-47"
         },
         {
-          "uid": "547d-10"
+          "uid": "2ce5-49"
         },
         {
-          "uid": "547d-12"
+          "uid": "2ce5-51"
         },
         {
-          "uid": "547d-14"
+          "uid": "2ce5-53"
         },
         {
-          "uid": "547d-16"
+          "uid": "2ce5-55"
         },
         {
-          "uid": "547d-18"
+          "uid": "2ce5-57"
         },
         {
-          "uid": "547d-20"
+          "uid": "2ce5-59"
+        },
+        {
+          "uid": "2ce5-61"
         }
       ],
       "isExternal": true
@@ -577,9 +623,6 @@
   "options": {
     "gzip": true,
     "brotli": true,
-    "sourcemap": false
-  }
-}rue,
     "sourcemap": false
   }
 }
