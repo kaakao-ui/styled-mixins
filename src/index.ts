@@ -1,6 +1,7 @@
 export * from './mixins/Background';
 export * from './mixins/BorderRadius';
 export * from './mixins/BoxShadow';
+export * from './mixins/Flex';
 export * from './mixins/Gradient';
 export * from './mixins/Layout';
 export * from './mixins/Margin';
