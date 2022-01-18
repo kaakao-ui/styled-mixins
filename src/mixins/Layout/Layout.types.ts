@@ -17,9 +17,13 @@ export type DisplayValues =
   | GlobalValues
   | 'block'
   | 'contents'
+  | 'flex'
   | 'flow-root'
+  | 'grid'
   | 'inline'
   | 'inline-block'
+  | 'inline-flex'
+  | 'inline-grid'
   | 'list-item'
   | 'none'
   | 'table'
