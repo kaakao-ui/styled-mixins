@@ -20,10 +20,10 @@ export interface IGrid {
   gridAutoFlow?: AutoFlow;
   gridAutoRows?: string;
   gridCol?: GlobalValues | string;
-  gridColGap?: keyof DefaultTheme['space'] | string | number;
-  gridGap?: keyof DefaultTheme['space'] | string | number;
+  gridColGap?: keyof DefaultTheme['space'];
+  gridGap?: keyof DefaultTheme['space'];
   gridRow?: GlobalValues | string;
-  gridRowGap?: keyof DefaultTheme['space'] | string | number;
+  gridRowGap?: keyof DefaultTheme['space'];
   gridTemplateAreas?: string;
   gridTemplateCols?: string;
   gridTemplateRows?: string;
