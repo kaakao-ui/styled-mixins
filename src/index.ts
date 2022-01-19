@@ -1,4 +1,5 @@
 export * from './mixins/Background';
+export * from './mixins/Border';
 export * from './mixins/BorderRadius';
 export * from './mixins/BoxShadow';
 export * from './mixins/Flex';
