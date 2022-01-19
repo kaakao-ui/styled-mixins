@@ -16,27 +16,18 @@ function Position(props: IPosition): FlattenSimpleInterpolation | undefined {
   if (!props.position || !Object.keys(p)) return undefined;
 
   return css`
-    inset-block-end: ${p.b ? (theme?.space ? theme.space[Number(p.b)] : p.b) : ''};
-    inset-block-start: ${p.t ? (theme?.space ? theme.space[Number(p.t)] : p.t) : ''};
-    inset-inline-end: ${p.r ? (theme?.space ? theme.space[Number(p.r)] : p.r) : ''};
-    inset-inline-start: ${p.l ? (theme?.space ? theme.space[Number(p.l)] : p.l) : ''};
+    inset-block-end: ${p.b && theme.space?.[p.b]};
+    inset-block-start: ${p.t && theme.space?.[p.t]};
+    inset-inline-end: ${p.r && theme.space?.[p.r]};
+    inset-inline-start: ${p.l && theme.space?.[p.l]};
     position: ${p.p};
     z-index: ${p.z};
 
     @supports not (inset-block-end: 1rem) {
-      bottom: ${p.b ? (theme?.space ? theme.space[Number(p.b)] : p.b) : ''};
-    }
-
-    @supports not (inset-block-start: 1rem) {
-      top: ${p.t ? (theme?.space ? theme.space[Number(p.t)] : p.t) : ''};
-    }
-
-    @supports not (inset-inline-end: 1rem) {
-      right: ${p.r ? (theme?.space ? theme.space[Number(p.r)] : p.r) : ''};
-    }
-
-    @supports not (inset-inline-start: 1rem) {
-      left: ${p.l ? (theme?.space ? theme.space[Number(p.l)] : p.l) : ''};
+      bottom: ${p.b && theme.space?.[p.b]};
+      left: ${p.l && theme.space?.[p.l]};
+      right: ${p.r && theme.space?.[p.r]};
+      top: ${p.t && theme.space?.[p.t]};
     }
   `;
 }

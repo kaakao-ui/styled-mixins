@@ -40,6 +40,6 @@ export interface ILayout {
   overflow?: OverflowValues;
   overflowX?: OverflowValues;
   overflowY?: OverflowValues;
-  vAlign?: string | VerticalAlignments;
+  vAlign?: VerticalAlignments | string;
   w?: string;
 }
