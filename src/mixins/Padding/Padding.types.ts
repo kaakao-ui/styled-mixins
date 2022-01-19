@@ -1,11 +1,11 @@
 import { DefaultTheme } from 'styled-components';
 
 export interface IPadding {
-  p?: keyof DefaultTheme['space'] | string | number;
-  pb?: keyof DefaultTheme['space'] | string | number;
-  pl?: keyof DefaultTheme['space'] | string | number;
-  pr?: keyof DefaultTheme['space'] | string | number;
-  pt?: keyof DefaultTheme['space'] | string | number;
-  px?: keyof DefaultTheme['space'] | string | number;
-  py?: keyof DefaultTheme['space'] | string | number;
+  p?: keyof DefaultTheme['space'];
+  pb?: keyof DefaultTheme['space'];
+  pl?: keyof DefaultTheme['space'];
+  pr?: keyof DefaultTheme['space'];
+  pt?: keyof DefaultTheme['space'];
+  px?: keyof DefaultTheme['space'];
+  py?: keyof DefaultTheme['space'];
 }

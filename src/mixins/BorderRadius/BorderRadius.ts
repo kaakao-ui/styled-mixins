@@ -1,4 +1,4 @@
-import { css, useTheme, FlattenSimpleInterpolation, DefaultTheme } from 'styled-components';
+import { css, useTheme, FlattenSimpleInterpolation } from 'styled-components';
 import { IBorderRadius } from './BorderRadius.types';
 
 function BorderRadius(props: IBorderRadius): FlattenSimpleInterpolation | undefined {
@@ -13,31 +13,11 @@ function BorderRadius(props: IBorderRadius): FlattenSimpleInterpolation | undefi
 
   if (!Object.keys(r)) return undefined;
 
-  r.bl =
-    r.bl && r.bl !== r.r
-      ? theme?.radii
-        ? theme.radii[r.bl as keyof DefaultTheme['radii']]
-        : r.bl
-      : '';
-  r.br =
-    r.br && r.br !== r.r
-      ? theme?.radii
-        ? theme.radii[r.br as keyof DefaultTheme['radii']]
-        : r.br
-      : '';
-  r.tl =
-    r.tl && r.tl !== r.r
-      ? theme?.radii
-        ? theme.radii[r.tl as keyof DefaultTheme['radii']]
-        : r.tl
-      : '';
-  r.tr =
-    r.tr && r.tr !== r.r
-      ? theme?.radii
-        ? theme.radii[r.tr as keyof DefaultTheme['radii']]
-        : r.tr
-      : '';
-  r.r = r.r ? (theme.radii ? theme.radii[r.r as keyof DefaultTheme['radii']] : r.r) : '';
+  r.bl = r.bl && r.bl !== r.r && theme.radii?.[r.bl];
+  r.br = r.br && r.br !== r.r && theme.radii?.[r.br];
+  r.tl = r.tl && r.tl !== r.r && theme.radii?.[r.tl];
+  r.tr = r.tr && r.tr !== r.r && theme.radii?.[r.tr];
+  r.r = r.r && theme.radii?.[r.r];
 
   return css`
     border-end-end-radius: ${r.br};
